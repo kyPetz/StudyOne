@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Key Terms Practice Quiz - Study 1</title>
+        <style>
+            #content {
+                margin-right: auto;
+                margin-left: auto;
+                padding: 4px;
+                width: 95%;
+                color: rgb(78, 78, 78);
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            #header {
+                padding: 1em;
+                border-bottom: 2px solid black;
+                overflow: auto;
+                text-align: center;
+            }
+            #header h1 {
+                font-weight: bold;
+            }
+            #body {
+                text-align:center;
+                padding: 3%;
+            }
+            .container {
+                text-align:left;
+                display: inline-block;
+                border: 2px groove;
+                border-radius: 8px;
+                background-color: #f5f3f1;
+                text-decoration: none;
+                width: 90%;
+                padding: 1%;
+                margin: 1.5%;
+                vertical-align: top;
+            }
+            h3 {
+                margin: 0em;
+            }
+            button {
+                align-items: center;
+                background-color: initial;
+                background-image: linear-gradient(#464d55, #25292e);
+                border-radius: 8px;
+                border-width: 0;
+                box-shadow: 0 10px 20px rgba(0, 0, 0, .1),0 3px 6px rgba(0, 0, 0, .05);
+                box-sizing: border-box;
+                color: #fff;
+                cursor: pointer;
+                display: inline-flex;
+                flex-direction: column;
+                font-family: expo-brand-demi,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+                font-size: 18px;
+                height: 52px;
+                justify-content: center;
+                line-height: 1;
+                margin: 0;
+                outline: none;
+                overflow: hidden;
+                padding: 0 32px;
+                text-align: center;
+                text-decoration: none;
+                transform: translate3d(0, 0, 0);
+                transition: all 150ms;
+                vertical-align: baseline;
+                white-space: nowrap;
+            }
+
+            button:hover {
+                box-shadow: rgba(0, 1, 0, .2) 0 2px 8px;
+                opacity: .85;
+            }
+
+            button:active {
+                outline: 0;
+            }
+
+           .button:focus {
+                box-shadow: rgba(0, 0, 0, .5) 0 0 0 3px;
+            }
+
+            @media (max-width: 420px) {
+                .button-84 {
+                    height: 48px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="content">
+            <div id="header">
+                <h1>Study 1</h1>
+                <p>This tool was made for you to assist in your learning of the exact textbook definitions of the key terms we learned in Study 1.</p>
+            </div><br>
+            <div id="body">
+            </div>
+        </div>
+        <script>
+            var questions = [];
+            var answerKey = ["1.2","2.4","3.1","4.3","5.2","6.2","7.2","8.3","9.1","10.2","11.3","14.1","15.4","16.3","17.2","18.1"]
+            var body;
+            //1
+            questions.push(["Insurance",
+                "A: An agreement between two parties in which one party agrees to provide compensation for a loss of property based on a an agreed upon set of conditions",
+                "B: A contract in which the insurer agrees to reimburse the insured for loss or liabality on a defined subject caused by specific hazards or perils in exchange for monetary consideration", //
+                "C: A Verbal Agreement to cover the cost of losses and damages that occur due to specific hazads or perils",
+                "D: That thing you need for your car in order to drive"
+            ]);
+            //2
+            questions.push(["Risk",
+                "A: A situation involving a chance of finiancial loss, or no finiancial loss with no chance of finiancial gain",
+                "B: A good spin on a classic game",
+                "C: A situation where the possibility of either a finiancial loss or a finiancial gain exists",
+                "D: The possible loss or destruction of property or the possible incurring of a liabality" //
+            ])
+            //3
+            questions.push(["Pure Risk",
+                "A: A situation involving a chance of finiancial loss, or no finiancial loss with no chance of finiancial gain", //
+                "B: A good spin on a classic game",
+                "C: A situation where the possibility of either a finiancial loss or a finiancial gain exists",
+                "D: The possible loss or destruction of property or the possible incurring of a liabality"
+            ])
+            //4
+            questions.push(["Speculative Risk",
+                "A: A situation involving a chance of finiancial loss, or no finiancial loss with no chance of finiancial gain",
+                "B: A good spin on a classic game",
+                "C: A situation where the possibility of either a finiancial loss or a finiancial gain exists", //
+                "D: The possible loss or destruction of property or the possible incurring of a liabality"
+            ])
+            //5
+            questions.push(["Insurer",
+                "A: The individual responsible for collecting finiancial replacement in the event a claim is filed",
+                "B: The insurance company that undertakes to indemnify for losses and perform other insurance-related operations", //
+                "C: A liscenced independent person or firm who acts on behalf of another",
+                "D: One who investigates insurance claims makes recomendations regarding the payment of benefits from insurance policies, and negotiates payments and settlements"
+            ])
+            //6
+            questions.push(["Peril",
+                "A: A hazard arising from the character, interest, habits, and lack of integrity of the insured or person concerned",
+                "B: The event that caused a loss covered by the policy; for example, fire, windstorm", //
+                "C: A hazard arising from the physical condition or characteristics of the object that is insured",
+                "D: A risk or probability that the event insured against might occur or a condition that engenders or increases the chances of a loss"
+            ])
+            //7
+            questions.push(["Hazard",
+                "A: A hazard arising from the character, interest, habits, and lack of integrity of the insured or person concerned",
+                "B: A risk or probability that the event insured against might occur or a condition that engenders or increases the chances of a loss", //
+                "C: A hazard arising from the physical condition or characteristics of the object that is insured",
+                "D: The event that caused a loss covered by the policy; for example, fire, windstorm"
+            ])
+            //8
+            questions.push(["Physical Hazard",
+                "A: A hazard arising from the character, interest, habits, and lack of integrity of the insured or person concerned",
+                "B: A hazard that is based on the insured’s attitude toward the insured belongings. This hazard exists when the insured no longer cares about the possessions because they are insured",
+                "C: A hazard arising from the physical condition or characteristics of the object that is insured", //
+                "D: A risk or probability that the event insured against might occur or a condition that engenders or increases the chances of a loss"
+            ])
+            //9
+            questions.push(["Moral Hazard",
+                "A: A hazard arising from the character, interest, habits, and lack of integrity of the insured or person concerned", //
+                "B: A hazard that is based on the insured’s attitude toward the insured belongings. This hazard exists when the insured no longer cares about the possessions because they are insured",
+                "C: A hazard arising from the physical condition or characteristics of the object that is insured",
+                "D: A risk or probability that the event insured against might occur or a condition that engenders or increases the chances of a loss"
+            ])
+            //10
+            questions.push(["Morale Hazard",
+                "A: A hazard arising from the character, interest, habits, and lack of integrity of the insured or person concerned",
+                "B: A hazard that is based on the insured’s attitude toward the insured belongings. This hazard exists when the insured no longer cares about the possessions because they are insured", //
+                "C: A hazard arising from the physical condition or characteristics of the object that is insured",
+                "D: A risk or probability that the event insured against might occur or a condition that engenders or increases the chances of a loss"
+            ])
+            //11
+            questions.push(["Theft",
+                "A: Unlawful removal of property from premises involving visible forcible entry",
+                "B: Unlawfully taking another’s property, in the person’s presence, by violence or the threat of violence",
+                "C: The wrongful taking of the property of another. It is a broad term and includes larceny, pilfering, holdup, robbery, and pickpocketing", //
+                "D: The wrongful taking of the property of another, specifically in regards to automobiles"
+            ])
+            //12
+            questions.push(["Burglary",
+                "A: Unlawful removal of property from premises involving visible forcible entry", //
+                "B: Unlawfully taking another’s property, in the person’s presence, by violence or the threat of violence",
+                "C: The wrongful taking of the property of another. It is a broad term and includes larceny, pilfering, holdup, robbery, and pickpocketing",
+                "D: The wrongful taking of the property of another, specifically in regards to automobiles"
+            ])
+            //13
+            questions.push(["Robbery",
+                "A: Unlawful removal of property from premises involving visible forcible entry",
+                "B: Unlawfully taking another’s property, in the person’s presence, by violence or the threat of violence", //
+                "C: The wrongful taking of the property of another. It is a broad term and includes larceny, pilfering, holdup, robbery, and pickpocketing",
+                "D: The wrongful taking of the property of another, specifically in regards to automobiles"
+            ])
+            //14
+            questions.push(["Negligence",
+                "A: Failure to use the degree of care expected from a reasonable and prudent person", //
+                "B: An interdisciplinary field with telecommunications, vehicular technologies, road transportation, road safety, electrical engineering",
+                "C: Unlawfully taking another’s property, in the person’s presence, by violence or the threat of violence",
+                "D: A risk or probability that the event insured against might occur or a condition that engenders or increases the chances of a loss"
+            ])
+            //15
+            questions.push(["Underwriter",
+                "A: One who specializes in the mathematics of insurance, mortality rates, and the like",
+                "B: A person licensed and authorized or employed to act on behalf of another",
+                "C: A licensed independent person or firm who acts on behalf of an insured in placing business with insurance companies",
+                "D: The insurance company or group that underwrites or insures a particular risk or the individual within an insurance company whose responsibility it is to accept or reject business in the particular line in which she specializes and, in this way, choose the risks her principals are prepared to underwrite" //
+            ])
+            //16
+            questions.push(["Proximate Cause",
+                "A: A cause that is not the proximate cause of loss but is the last link in a chain of events leading to a loss",
+                "B: A cause that is not the proximate cause of loss and is separate from the proximate cause in a chain of events leading to a loss",
+                "C: A cause that, in a natural and continuous sequence unbroken by any new and independent cause, produces an event and without which the event would not have happened" //
+            ])
+            //17
+            questions.push(["Remote Cause",
+                "A: A cause that is not the proximate cause of loss but is the last link in a chain of events leading to a loss",
+                "B: A cause that is not the proximate cause of loss and is separate from the proximate cause in a chain of events leading to a loss", //
+                "C: A cause that, in a natural and continuous sequence unbroken by any new and independent cause, produces an event and without which the event would not have happened"
+            ])
+            //18
+            questions.push(["Immediate Cause",
+                "A: A cause that is not the proximate cause of loss but is the last link in a chain of events leading to a loss", //
+                "B: A cause that is not the proximate cause of loss and is separate from the proximate cause in a chain of events leading to a loss",
+                "C: A cause that, in a natural and continuous sequence unbroken by any new and independent cause, produces an event and without which the event would not have happened"
+            ])
+            body = document.getElementById("body");
+            for (let i = 0; i < questions.length; i++) {
+                var div = document.createElement("div");
+                div.setAttribute("class", "container");
+                div.innerHTML = "<h3>" + (i+1) + ".  " + questions[i][0] + "</h3>";
+                for (let j = 1; j < questions[i].length; j++) {
+                    var input = document.createElement("input");
+                    var label = document.createElement("label");
+
+                    input.setAttribute("type", "radio");
+                    input.setAttribute("id", "" + (i + 1) + "." + j);
+                    input.setAttribute("name", "keyTerm" + (i + 1));
+                    input.setAttribute("value", "" + j);
+
+                    label.setAttribute("for", "" + (i + 1) + "." + j);
+                    label.innerHTML = questions[i][j];
+                    console.log("" + (i + 1) + "." + j);
+                    div.appendChild(input);
+                    div.appendChild(label);
+                    div.appendChild(document.createElement("br"));
+                    div.appendChild(document.createElement("br"));
+                }
+                body.appendChild(div);
+            }
+            var button = document.createElement("button");
+            button.innerHTML = "Check Answers";
+            button.addEventListener("click", () => {
+                for (let i = 0; i < questions.length; i++) {
+                    var radioButtons = document.querySelectorAll("input[name=keyTerm" + (i + 1) + ']');
+                    for (let radioButton of radioButtons) {
+                        if (radioButton.checked) {
+                            if (!answerKey.includes(radioButton.id)) {
+                                document.querySelector('label[for="' + radioButton.id + '"]').setAttribute("style", "color:red");
+                            }
+                            else {
+                                document.querySelector('label[for="' + radioButton.id + '"]').setAttribute("style", "color:green");
+                            }
+                        }
+                    }
+                }
+            })
+            body.appendChild(button);
+        </script>
+    </body>
+</html>
